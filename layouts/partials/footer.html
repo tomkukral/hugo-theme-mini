@@ -1,4 +1,5 @@
 <footer id="footer">
+    {{ "<!-- HOSTNAME -->" | safeHTML }}
     {{ if .Site.Social }}
         {{ partial "social.html" . }}
     {{ end }}
